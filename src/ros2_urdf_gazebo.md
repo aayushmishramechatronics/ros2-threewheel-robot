@@ -3,7 +3,6 @@ title: ROS2 Series - URDF #03
 description: Build a 3 Wheeled-Robot in ROS2 using URDF & Simulate in Gazebo
 publishDate: June 28, 2026
 date: 2026-06-28
-img: "/img/urdf_gazebo.svg"
 tags: ["projects"]
 ---
 
@@ -215,9 +214,6 @@ touch gazebo.launch.py
 
 5. **`spawn_entity.py`** — After the delay, reads the robot model from the `/robot_description` topic and spawns it into the running Gazebo world as `threewheel_robot`.
 
-![Three-Wheeled Robot Spawned in Gazebo Environment](/img/gazebo_vscode.jpg)
-
-
 > **at this stage you should have:**
 > - `display.launch.py` ready with the complete code
 > - `gazebo.launch.py` ready with the complete code
@@ -266,10 +262,6 @@ ros2 launch robot_wheel gazebo.launch.py
 ```
 
 the output for the above command will somewhat look like the one mentioned below - wait for Gazebo to fully open before moving on to Terminal 2.
-
-![Gazebo Output](/img/gazebo_output3.jpg)
-
-![Three-Wheeled Robot in Gazebo](/img/gazebo.jpg)
 
 run the above command in Terminal 1 and split it, as we need Terminal 2 for running some other commands which are mentioned below:
 
